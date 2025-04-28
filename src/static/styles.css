@@ -142,3 +142,26 @@ footer {
   padding: 20px;
   color: #666;
 }
+
+/* Modernized style for the participants list */
+.activity-card ul {
+  list-style-type: none; /* Remove default bullet points */
+  margin: 10px 0 0 0;
+  padding: 0;
+  color: #333;
+}
+
+.activity-card ul li {
+  margin-bottom: 8px;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.activity-card ul li::before {
+  content: "•"; /* Add a custom bullet */
+  color: #1a237e; /* Match the theme color */
+  font-size: 18px;
+  line-height: 1;
+}
